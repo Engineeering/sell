@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta information and page title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy House Drawing</title>
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>House Drawing for Sale</h1>
+    </header>
+
+    <!-- Section for the product and buy button -->
+    <section>
+        <h2>Purchase the House Drawing</h2>
+        <p>Price: $2.00 USD</p>
+        <!-- Buy Now button, triggers the showBankInfo() function -->
+        <button id="buy-now" onclick="showBankInfo()">Buy Now</button>
+    </section>
+
+    <!-- Section for displaying bank information (hidden initially) -->
+    <section id="bank-info" style="display:none;">
+        <h3>Bank Transfer Information</h3>
+        <p>Account Holder: SARHANG ABDULRAHMAN MOHAMMED MOHAMMED</p>
+        <p>IBAN: IQ04FIQB001013261520003</p>
+        <p>BIC: FIQBIQBA001</p>
+        <p>Bank: First Iraqi Bank (ARRASAT AL HENDIA - AL KARADA, IRAQ)</p>
+        <p>Currency: USD</p>
+        <p>Please transfer the amount manually to the above account.</p>
+
+        <!-- Button to download the file after the payment -->
+        <button onclick="downloadFile()">Download Drawing After Payment</button>
+    </section>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
